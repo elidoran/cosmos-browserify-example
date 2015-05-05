@@ -1,0 +1,32 @@
+<head>
+  <title>Cosmos Browserify Example</title>
+</head>
+
+<body>
+  <h1>Cosmos Browserify Example</h1>
+  
+  {{> app }}
+
+  {{> example1 }}
+
+  {{> example2 }}
+  
+</body>
+
+<template name="app">
+  
+  <h2>Example App Scope</h2>
+  
+  <div>
+    appUppercase('some text') == {{useAppUppercase 'some text'}}
+  </div>
+  
+  <div>
+    example1Uppercase isn't available: {{example1UppercaseExists}}
+  </div>
+  
+  <div>
+    example2Uppercase isn't available: {{example2UppercaseExists}}
+  </div>
+  
+</template>
