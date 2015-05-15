@@ -14,20 +14,20 @@ Npm.depends({
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
   api.use(['coffeescript', 'templating'], 'client');
-  
+
   api.use(['cosmos:browserify'], 'client'); // need this package
 
   api.addFiles([
       'client/example.html',    // show some example results
-      'client/example.coffee',  // package's Meteor script 
+      'client/example.coffee',  // package's Meteor script
       'browserify.js'           // browserify file
-    ], 
+    ],
     'client'
   );
-  
+
   // export it to global app scope
   api.export('appUppercase', 'client');
-  
+
 });
 
 Package.onTest(function(api) {

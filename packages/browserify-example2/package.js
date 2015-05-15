@@ -14,17 +14,17 @@ Npm.depends({
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
   api.use(['coffeescript', 'templating'], 'client');
-  
+
   api.use(['cosmos:browserify'], 'client'); // need this package
 
   api.addFiles([
-      'client/example2.html',    
-      'client/example2.coffee',  
-      'browserify.js'            
-    ], 
+      'client/example2.html',
+      'client/example2.coffee',
+      'browserify.js'
+    ],
     'client'
   );
-  
+
 });
 
 Package.onTest(function(api) {
