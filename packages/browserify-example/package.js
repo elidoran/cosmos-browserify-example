@@ -1,6 +1,6 @@
 Package.describe({
   name: 'cosmos:browserify-example',
-  version: '0.1.0',
+  version: '0.2.0',
   summary: 'First example package using cosmos:browserify',
   git: '',
   documentation: 'README.md'
@@ -15,7 +15,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
   api.use(['coffeescript', 'templating'], 'client');
 
-  api.use(['cosmos:browserify@0.1.3'], 'client'); // need this package
+  api.use(['cosmos:browserify@0.3.0'], 'client'); // need this package
 
   api.addFiles([
       'client/example.html',    // show some example results

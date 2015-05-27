@@ -15,7 +15,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
   api.use(['coffeescript', 'templating'], 'client');
 
-  api.use(['cosmos:browserify@0.1.3'], 'client'); // need this package
+  api.use(['cosmos:browserify@0.3.0'], 'client'); // need this package
 
   api.addFiles([
       'client/example2.html',
