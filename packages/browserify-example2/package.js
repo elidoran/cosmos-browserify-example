@@ -20,7 +20,7 @@ Package.onUse(function(api) {
   api.addFiles([
       'client/example2.html',
       'client/example2.coffee',
-      'browserify.js'
+      'client.browserify.js'
     ],
     'client'
   );

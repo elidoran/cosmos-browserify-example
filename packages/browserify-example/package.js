@@ -20,7 +20,7 @@ Package.onUse(function(api) {
   api.addFiles([
       'client/example.html',    // show some example results
       'client/example.coffee',  // package's Meteor script
-      'browserify.js'           // browserify file
+      'client.browserify.js'           // browserify file
     ],
     'client'
   );
