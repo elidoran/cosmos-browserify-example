@@ -8,4 +8,4 @@ meteor-platform
 cosmos:browserify-example
 coffeescript
 cosmos:browserify-example2
-cosmos:browserify@0.1.3
+cosmos:browserify

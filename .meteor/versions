@@ -7,9 +7,9 @@ boilerplate-generator@1.0.3
 callback-hook@1.0.3
 check@1.0.5
 coffeescript@1.0.6
-cosmos:browserify@0.3.0
-cosmos:browserify-example@0.2.0
-cosmos:browserify-example2@0.1.0
+cosmos:browserify@0.4.0
+cosmos:browserify-example@0.2.1
+cosmos:browserify-example2@0.1.1
 ddp@1.1.0
 deps@1.0.7
 ejson@1.0.6
