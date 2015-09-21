@@ -9,3 +9,9 @@ cosmos:browserify-example
 coffeescript
 cosmos:browserify-example2
 cosmos:browserify
+meteorhacks:npm@=1.4.0
+
+
+
+
+npm-container
