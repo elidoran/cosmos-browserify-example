@@ -1,15 +1,13 @@
 Package.describe({
-  name: 'cosmos:example-package',
+  name: 'cosmos:example-package-npm',
   version: '1.0.0',
-  summary: 'Example package using cosmos:browserify and Npm.depends()',
+  summary: 'Example package using cosmos:browserify and npm install',
   git: '',
   documentation: 'README.md'
 });
 
-// Declare NPM modules for Meteor to download into .npm/package
-Npm.depends({
-  'upper-case':'1.1.2'  // module exports a function
-});
+// Not using this, instead, using cli `npm install <module>` to get them
+// Npm.depends({});
 
 Package.onUse(function(api) {
   api.versionsFrom('1.2');
@@ -35,6 +33,6 @@ Package.onUse(function(api) {
 });
 
 Package.onTest(function(api) {
-  api.use(['tinytest', 'coffeescript', 'cosmos:example-package'], 'client');
+  api.use(['tinytest', 'coffeescript', 'cosmos:example-package-npm'], 'client');
   api.addFiles('test/example-tests.coffee', 'client');
 });

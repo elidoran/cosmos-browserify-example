@@ -1,0 +1,10 @@
+{
+  "basedir" : "packages/cosmos_example-package-npm",
+  
+  "transforms": {
+    "envify": {
+      "NODE_ENV": "production",
+      "_": "purge"
+    }
+  }
+}
