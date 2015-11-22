@@ -1,6 +1,6 @@
 # Cosmos Browserify Examples
 
-Standard Use:  or *meteorhacks:npm* to get modules:
+Standard Use:
 
 1. [Example App](https://github.com/elidoran/cosmos-browserify-example/tree/master/app) using **meteorhacks:npm**
 2. [Example Package](https://github.com/elidoran/cosmos-browserify-example/tree/master/package) using Meteor's `Npm.depends()`
